@@ -7,8 +7,8 @@
 const url = "https://api.lolicon.app/setu/v2?"
 
 const req = {
-    "userR18": 1, //18禁为1 非为0 2是混合
-    "userNum": 1, //一次返回的结果数量，范围为1到10，数字的数量亦为弹框的次数
+    "r18": 1, //18禁为1 非为0 2是混合
+    "num": 1, //一次返回的结果数量，范围为1到10，数字的数量亦为弹框的次数
     "size": ["original", "thumb"], //返回指定图片规格的地址
     "excludeAI": false //排除 AI 作品
 }
